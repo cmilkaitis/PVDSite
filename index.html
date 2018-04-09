@@ -12,7 +12,6 @@
                 text-decoration: none;
                 color: #cecece;
                 font-family: Montserrat, sans-serif;
-                margin-bottom: 13px;
                 }
     
             a:visited {
@@ -28,6 +27,39 @@
             a:active {
                 text-decoration: none;
                 }
+            
+            li {
+                margin-bottom: 13px;
+            }
+            
+            .btn-primary {
+                background-color: #e56f00; 
+                border-radius: 0px; 
+                margin-bottom: 20px; 
+                padding-top: 28px; 
+                padding-bottom: 28px; 
+                cursor: pointer; 
+                font-weight: 400; 
+                text-decoration: none;
+                border: 2px solid #e56f00;
+            }
+           .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+                color: #e56f00;
+                background-color: #fff;
+                border: 2px solid #e56f00;
+                
+            }
+            
+            .navCust{
+                padding-top: 15px;
+                padding-bottom: 10px;
+                border-bottom: 5px solid transparent;
+            }
+            .navCust:hover {
+                
+                border-bottom: 5px solid #e56f00;
+            }
+            
 
         </style>
     </head>
@@ -46,12 +78,12 @@
             </div>
         </nav>
         <nav class="nav nav-fill bg-grey" style="background: #f7f7f7; max-width: 86em; margin-left: auto; margin-right: auto;">
-            <a class="nav-item nav-link" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; padding: 21px 0; margin-bottom: 0;">CITY HALL</a>
-            <a class="nav-item nav-link" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; padding: 21px 0; margin-bottom: 0;">DOING BUSINESS</a>
-            <a class="nav-item nav-link" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; padding: 21px 0; margin-bottom: 0;">EVENTS</a>
-            <a class="nav-item nav-link" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; padding: 21px 0; margin-bottom: 0;">NEWS</a>
-            <a class="nav-item nav-link" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; padding: 21px 0; margin-bottom: 0;">PVD 311</a>
-            <a class="nav-item nav-link" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; padding: 21px 0; margin-bottom: 0;">EXPLORE</a>
+            <a class="nav-item nav-link navCust" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; margin-bottom: 10;">CITY HALL</a>
+            <a class="nav-item nav-link navCust" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; margin-bottom: 10;">DOING BUSINESS</a>
+            <a class="nav-item nav-link navCust" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; margin-bottom: 10;">EVENTS</a>
+            <a class="nav-item nav-link navCust" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; margin-bottom: 10;">NEWS</a>
+            <a class="nav-item nav-link navCust" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; margin-bottom: 10;">PVD 311</a>
+            <a class="nav-item nav-link navCust" href="#" style="font-family: Montserrat, sans-serif; color: #6a6a6a; margin-bottom: 10;">EXPLORE</a>
         </nav>
         <section class ="home-hero" style="background-image: url(https://bit.ly/pvdskylines); height: 300px; margin-bottom: 50px; background-size: cover; background-position-x: 50%; background-position-y: center;"></section>
         <!-- <h1 style="text-align: center">Welcome to Providence!</h1> -->
@@ -60,7 +92,7 @@
                 <div class="col-sm">
                     <div class="card" style="width: 100%; border: none;">
                         <h4 style="text-align: center; font-family: Montserrat, sans-serif; font-weight: 700; color: #10475a; margin: 0 0 16px;">What Can We Help You With?</h4>
-                        <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #e56f00; border-radius: 0px; margin-bottom: 20px; padding-top: 28px; padding-bottom: 28px; border: 2px solid #e56f00; cursor: pointer; font-weight: 400; text-decoration: none;">I WANT TO...</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">I WANT TO...</button>
                     
                         <p>
                         <h4 style="color: #fff; font-family: Montserrat, sans-serif; font-weight: 700; background: #005d73; margin: 0; padding: 24px 0 25px 9%;">TOP REQUESTS</h4>
